@@ -59,7 +59,7 @@ if ( ! class_exists( 'Ampwp_core' ) ) {
 				if ( $_SESSION['AMPWP_MOBILE_ACTIVE'] === TRUE ) {
 					// Double check session var for theme, fall back on default if any problems
 					if ( ! isset( $_SESSION['AMPWP_MOBILE_THEME'] ) || ( trim( $_SESSION['AMPWP_MOBILE_THEME'] ) == '') ) {
-						$_SESSION['AMPWP_MOBILE_THEME']		=  'default';
+						$_SESSION['AMPWP_MOBILE_THEME']		=  'asif';
 					}
 	 
 					require_once( dirname( __FILE__ ) . '/ampwp-render.php' );

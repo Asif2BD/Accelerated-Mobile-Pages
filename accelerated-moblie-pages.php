@@ -36,7 +36,7 @@ if ( class_exists( 'Ampwp_core' ) ) {
 */
 
 function add_rel_info() { ?>
-<link rel="amphtml" href="<?php the_permalink(); ?>/?amp" />
+<link rel="amphtml" href="<?php the_permalink(); ?>?amp" />
 <?php }
 add_action( 'wp_head', 'add_rel_info' );
 
